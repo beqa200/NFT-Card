@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+
+body {
+  background: #0d192c;
+}
+
+.main {
+  height: 548px;
+  width: 302px;
+  left: 0px;
+  top: 0px;
+  border-radius: 15px;
+  background: #15263f;
+  padding: 24px;
+  margin: auto;
+}
+
+.photo {
+  max-width: 100%;
+  border-radius: 8px;
+}
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
+  margin-top: 24px;
+}
+
+.txt {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8bacd9;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.horizontal {
+  display: flex;
+  height: 40px;
+}
+
+.eth {
+  margin-left: 6.49px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00fff8;
+}
+.days {
+  margin-right: px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 9.03px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+.clock {
+  margin-left: 132px;
+  margin-top: 1px;
+}
+hr {
+  height: 1.7px;
+  color: #2e405a;
+  background-color: #2e405a;
+  border: none;
+}
+
+.author {
+  display: flex;
+}
+
+.author img {
+  width: 33px;
+  height: 33px;
+  margin-top: 16px;
+}
+.p1 {
+  margin-left: 16px;
+  margin-top: 22px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+.p2 {
+  margin-left: 5px;
+  margin-top: 22px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
