@@ -14,19 +14,33 @@ body {
   padding: 24px;
   margin: auto;
 }
-
+.hover {
+  background: #00fff8;
+  border-radius: 11px;
+  height: 302px;
+}
 .photo {
   max-width: 100%;
   border-radius: 8px;
+  opacity: 1;
 }
-h1 {
+.h1inline {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 12px;
+  line-height: 8px;
   color: white;
   margin-top: 24px;
+}
+
+h1 {
+  display: inline;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: #00fff8;
 }
 
 .txt {
@@ -107,4 +121,29 @@ hr {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+span:hover {
+  cursor: pointer;
+  color: #00fff8;
+}
+
+.view {
+  position: absolute;
+  margin-left: -175px;
+  margin-top: 120px;
+  display: none;
+}
+
+.photo:hover + .view {
+  display: inline;
+}
+.photo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.view:hover {
+  display: inline;
+  cursor: pointer;
+  opacity: 0.5;
 }
